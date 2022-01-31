@@ -1,0 +1,106 @@
+.bar {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  display: none;
+}
+.barclose {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: none;
+}
+.barclose div {
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barclose div:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.barclose div:nth-child(2) {
+  transform: rotate(-45deg);
+}
+.bar div {
+  height: 10px;
+  width: 30px;
+  background: black;
+  margin: 3px;
+}
+@media screen and (max-width: 1080px) {
+  .bar {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-logo {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .nav-box .left-navs {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .nav-div .nav-box .left-navs {
+    width: 30%;
+  }
+  nav .nav-div .nav-box .right-logo {
+    width: 60%;
+  }
+  nav .nav-div {
+    height: 100%;
+  }
+  nav .nav-div .nav-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .tabs {
+    position: fixed;
+    top: 15vh;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #1b2838;
+    border-left: 2px solid white;
+    transform: translateX(100%);
+    transition: all 0.1s ease-in-out;
+  }
+  .tabs a {
+    width: 150px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+  }
+}

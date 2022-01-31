@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --top: 0px;
+  --left: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #132c33;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #dfdfdf;
+  height: 15vh;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+nav .scrollline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: rgba(167, 167, 167, 0.418);
+}
+
+nav .scrollline #scrolled {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  height: 100%;
+  width: 0%;
+  background: #0061f3;
+}
+
+nav .nav-div {
+  width: 100%;
+  margin: 0 10px;
+}
+
+nav .nav-div .nav-box {
+  padding: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .nav-div .nav-box .right-logo {
+  font-size: 25px;
+  color: #132c33;
+  text-align: center;
+  width: 30%;
+}
+
+nav .nav-div .nav-box .left-navs {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+nav .nav-div .nav-box .left-navs a {
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  font-size: 17px;
+  text-underline-offset: 6px;
+  padding: 3px 10px;
+}
+
+nav .nav-div .nav-box .left-navs a:hover {
+  background: royalblue;
+  color: white;
+  border-bottom: 2px solid royalblue;
+}
+
+.main-map {
+  margin-top: 15vh;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-map .mapsvg #nepal path {
+  stroke-width: 2px;
+  stroke: black;
+  cursor: pointer;
+  padding: 10px;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.main-map .mapsvg #nepal path:hover {
+  fill: #f24343;
+}
+
+.d-container {
+  background-color: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.d-container .box {
+  padding: 20px;
+}
+
+.hoverarea {
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  position: absolute;
+  top: var(--top);
+  left: var(--left);
+  -webkit-transform: translate(-var(--left), -var(--top));
+          transform: translate(-var(--left), -var(--top));
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding: 15px 10px;
+  border-radius: 4px;
+  z-index: 999;
+  visibility: hidden;
+}
+
+.hoverarea h4 {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #132c33;
+}
+
+.hoverarea h4 span {
+  display: inline-block;
+}
+
+.hoverarea h3 {
+  font-size: 10px;
+}
+
+.hoverarea #aqi {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.hoverarea .box h3 {
+  color: royalblue;
+  text-align: center;
+  font-size: 16px;
+}
+
+.hoverarea .box p {
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: royalblue;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2411cc;
+}
+
+.nepal-pollutionindex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nepal-pollutionindex iframe {
+  outline: 2px solid royalblue;
+  margin: 50px auto;
+}
+
+.nepal-pollutionindex iframe ::-webkit-scrollbar {
+  display: none;
+}
+
+.yourlocation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.yourlocation .box {
+  margin-bottom: 10px;
+}
+
+.yourlocation .box h3 {
+  font-family: Ubuntu;
+  border-bottom: 2px solid #132c33;
+}
+
+.yourlocation .content-box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.yourlocation .content-box .weathercontainer {
+  background: #bebebe;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.yourlocation .content-box .weathercontainer .errordiv {
+  background: crimson;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+  display: none;
+}
+
+.yourlocation .content-box .weathercontainer h2 {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+
+.yourlocation .content-box .weathercontainer .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.yourlocation .content-box .weathercontainer .icon img {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.yourlocation .content-box .weathercontainer #temp {
+  font-size: 60px;
+  font-weight: bold;
+  -webkit-text-stroke: 2px solid #fff;
+}
+
+.yourlocation .content-box .weathercontainer #dot {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.yourlocation .content-box .weathercontainer #tempUnit {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.yourlocation .content-box .weathercontainer #description {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.yourlocation .content-box .weathercontainer .extras {
+  text-align: center;
+}
+
+.yourlocation .content-box .weathercontainer .extras p {
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.yourlocation .content-box .weathercontainer .extras p #sunrise,
+.yourlocation .content-box .weathercontainer .extras p #sunset {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.yourlocation .content-box .weathercontainer .extras p #humidity,
+.yourlocation .content-box .weathercontainer .extras p #pressure,
+.yourlocation .content-box .weathercontainer .extras p #speed {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin: 0 4px;
+}
+
+.yourlocation .content-box .weathercontainer .extras p #unit {
+  font-size: 20px;
+  padding: 2px 2px;
+}
+
+.scrolltotop {
+  z-index: 999;
+  position: fixed;
+  top: 90%;
+  right: 1%;
+  border-radius: 3px;
+  background: royalblue;
+  color: white;
+  height: 40px;
+  width: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  display: none;
+  -webkit-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+
+.scrolltotop i {
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.scrolltotop i:hover {
+  margin-bottom: 10px;
+}
+
+.stop-auto-scroll {
+  z-index: 999;
+  background: black;
+  position: fixed;
+  top: 82%;
+  right: 1%;
+  opacity: 0.75;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 4px;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.stop-auto-scroll:hover {
+  opacity: 1;
+  color: gold;
+}
+
+.stop-auto-scroll #play {
+  display: none;
+  font-size: 25px;
+}
+
+.stop-auto-scroll #pause {
+  font-size: 25px;
+}
+
+.district-infos {
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.district-infos .district-box {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.district-infos .district-box .province-particular {
+  margin: 200px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.district-infos .district-box .province-particular .left-scroll {
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  opacity: 0.75;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.district-infos .district-box .province-particular .left-scroll:hover {
+  opacity: 1;
+}
+
+.district-infos .district-box .province-particular .right-scroll {
+  background: black;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  opacity: 0.75;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.district-infos .district-box .province-particular .right-scroll:hover {
+  opacity: 1;
+}
+
+.district-infos .district-box .province-particular .title-text {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-family: Ubuntu;
+  color: white;
+}
+
+.district-infos .district-box .province-particular .innerbox {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.district-infos .district-box .province-particular .innerbox::-webkit-scrollbar {
+  display: none;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box {
+  background: #462a68;
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box h3 {
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent {
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  padding: 5px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent p {
+  margin: 0;
+  padding: 0;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent details {
+  background: #efefef;
+  text-align: left;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent details summary {
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .aqidetail {
+  padding: 5px 10px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .aqidetail p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .aqidetail p span {
+  padding: 0 3px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail {
+  background: #c7c7c7;
+  padding: 10px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail h4 {
+  font-size: 13px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail .calc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail .calc .img {
+  width: 50px;
+  height: 50px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail .calc .img img {
+  width: 100%;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail .calc h4 {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail .calc h4 span {
+  font-size: 19px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail h5 {
+  font-size: 12px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail h5 #press,
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail h5 #humid {
+  font-size: 22px;
+}
+
+.district-infos .district-box .province-particular .innerbox .single-content-box .innercontent .weatherdetail h5 #unit {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=main.css.map */

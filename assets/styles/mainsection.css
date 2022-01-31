@@ -1,0 +1,41 @@
+.single-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6969;
+}
+#selfbox {
+  margin: 20px;
+  text-align: left;
+}
+#selfbox ul {
+  list-style-type: square;
+}
+#selfbox ul li {
+  margin: 5px 0;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1080px) {
+  svg {
+    width: 300px;
+    height: 200px;
+  }
+  .main-map {
+    min-height: auto;
+  }
+  .yourlocation .content-box {
+    flex-direction: column;
+  }
+  .yourlocation .content-box .weathercontainer {
+    width: 100%;
+  }
+  .grid-div {
+    width: 100%;
+
+    padding: 5px;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,19 @@
+
+/* styling of footer  */
+
+footer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+footer .social {
+    margin-top: 5px;
+}
+footer .social a {
+    text-decoration: none;
+    font-size: 25px;
+    color: royalblue;
+    margin: 2px 4px;
+}

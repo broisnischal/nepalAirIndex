@@ -1,0 +1,925 @@
+[{
+        "districtName": "bhojpur",
+        "province": "Province no.1",
+        "acode": "029",
+        "headquarter": "Bhojpur",
+        "popu": "182459",
+        "position": {
+            "lat": "27.1780",
+            "long": "87.0524",
+            "area": "1507"
+        }
+    },
+    {
+        "districtName": "dhankuta",
+        "province": "Province no.1",
+        "acode": "026",
+        "headquarter": "Dhankuta",
+        "popu": "163412",
+        "position": {
+            "lat": "26.9835",
+            "long": "87.3215",
+            "area": "892"
+        }
+    },
+    {
+        "districtName": "illam",
+        "province": "Province no.1",
+        "acode": "027",
+        "headquarter": "Illam",
+        "popu": "290254",
+        "position": {
+            "lat": "26.9225",
+            "long": "87.8942",
+            "area": "1703"
+        }
+    },
+    {
+        "districtName": "jhapa",
+        "province": "Province no.1",
+        "acode": "023",
+        "headquarter": "Bhadrapur",
+        "popu": "812650",
+        "position": {
+            "lat": "26.5455",
+            "long": "87.8942",
+            "area": "1606"
+        }
+    },
+    {
+        "districtName": "khotang",
+        "province": "Province no.1",
+        "acode": "036",
+        "headquarter": "Diktel",
+        "popu": "206312",
+        "position": {
+            "lat": "27.1838",
+            "long": "86.7819",
+            "area": "1591"
+        }
+    },
+    {
+        "districtName": "morang",
+        "province": "Province no.1",
+        "acode": "021",
+        "headquarter": "Biratnagar",
+        "popu": "965370",
+        "position": {
+            "lat": "26.6799",
+            "long": "87.4604",
+            "area": "1855"
+        }
+    },
+    {
+        "districtName": "okhaldhunga",
+        "province": "Province no.1",
+        "acode": "037",
+        "headquarter": "Siddhicharan",
+        "popu": "147984",
+        "position": {
+            "lat": "27.3619",
+            "long": "86.3782",
+            "area": "1074"
+        }
+    },
+    {
+        "districtName": "panchthar",
+        "province": "Province no.1",
+        "acode": "024",
+        "headquarter": "Phidim",
+        "popu": "191817",
+        "position": {
+            "lat": "27.1096",
+            "long": "87.8157",
+            "area": "1241"
+        }
+    },
+    {
+        "districtName": "Sankhuwasabha",
+        "province": "Province no.1",
+        "acode": "029",
+        "headquarter": "Khandbari",
+        "popu": "158742",
+        "position": {
+            "lat": "27.6174",
+            "long": "87.3016",
+            "area": "3480"
+        }
+    },
+    {
+        "districtName": "solukhumbu",
+        "province": "Province no.1",
+        "acode": "038",
+        "headquarter": "Salleri",
+        "popu": "105886",
+        "position": {
+            "lat": "27.6992",
+            "long": "86.7416",
+            "area": "3312"
+        }
+    },
+    {
+        "districtName": "sunsari",
+        "province": "Province no.1",
+        "acode": "025",
+        "headquarter": "Inaruwa",
+        "popu": "753328",
+        "position": {
+            "lat": "26.6276",
+            "long": "87.1822",
+            "area": "1257"
+        }
+    },
+    {
+        "districtName": "taplejung",
+        "province": "Province no.1",
+        "acode": "024",
+        "headquarter": "Taplejung",
+        "popu": "127461",
+        "position": {
+            "lat": "27.6257",
+            "long": "87.7763",
+            "area": "3646"
+        }
+    },
+    {
+        "districtName": "terhathum",
+        "province": "Province no.1",
+        "acode": "026",
+        "headquarter": "Myanglung",
+        "popu": "101577",
+        "position": {
+            "lat": "27.1998",
+            "long": "87.5791",
+            "area": "679"
+        }
+    },
+    {
+        "districtName": "udayapur",
+        "province": "Province no.1",
+        "acode": "035",
+        "headquarter": "Gaighat",
+        "popu": "317532",
+        "position": {
+            "lat": "26.8518",
+            "long": "86.6611",
+            "area": "2063"
+        }
+    },
+    {
+        "districtName": "saptari",
+        "province": "Province no.2",
+        "acode": "031",
+        "headquarter": "Rajbiraj",
+        "popu": "735000",
+        "position": {
+            "lat": "26.6191",
+            "long": "86.7819",
+            "area": "1363"
+        }
+    },
+    {
+        "districtName": "siraha",
+        "province": "Province no.2",
+        "acode": "033",
+        "headquarter": "Siraha",
+        "popu": "637328",
+        "position": {
+            "lat": "26.6397",
+            "long": "86.1853",
+            "area": "1188"
+        }
+    },
+    {
+        "districtName": "dhanusa",
+        "province": "Province no.2",
+        "acode": "041",
+        "headquarter": "Janakpur",
+        "popu": "754777",
+        "position": {
+            "lat": "26.8350",
+            "long": "86.0122",
+            "area": "1180"
+        }
+    },
+    {
+        "districtName": "mahottari",
+        "province": "Province no.2",
+        "acode": "044",
+        "headquarter": "Jaleshwar",
+        "popu": "627580",
+        "position": {
+            "lat": "26.8762",
+            "long": "85.8077",
+            "area": "1002"
+        }
+    },
+    {
+        "districtName": "sarlahi",
+        "province": "Province no.2",
+        "acode": "046",
+        "headquarter": "Malangwa",
+        "popu": "769729",
+        "position": {
+            "lat": "26.9627",
+            "long": "85.5612",
+            "area": "1259"
+        }
+    },
+    {
+        "districtName": "bara",
+        "province": "Province no.2",
+        "acode": "053",
+        "headquarter": "Kalaiya",
+        "popu": "687708",
+        "position": {
+            "lat": "27.1341",
+            "long": "85.0649",
+            "area": "1190"
+        }
+    },
+    {
+        "districtName": "parsa",
+        "province": "Province no.2",
+        "acode": "051",
+        "headquarter": "Birganj",
+        "popu": "601017",
+        "position": {
+            "lat": "27.2190",
+            "long": "84.8151",
+            "area": "1353"
+        }
+    },
+    {
+        "districtName": "rautahat",
+        "province": "Province no.2",
+        "acode": "055",
+        "headquarter": "Gaur",
+        "popu": "686723",
+        "position": {
+            "lat": "26.9547",
+            "long": "85.3136",
+            "area": "1126"
+        }
+    },
+    {
+        "districtName": "kathmandu",
+        "province": "Bagmati Province",
+        "acode": "01",
+        "headquarter": "Kathmandu",
+        "popu": "1442300",
+        "position": {
+            "lat": "27.7172",
+            "long": "85.3240",
+            "area": "49.45"
+        }
+    },
+    {
+        "districtName": "sindhuli",
+        "province": "Bagmati Province",
+        "acode": "047",
+        "headquarter": "Kamalamai",
+        "popu": "296192",
+        "position": {
+            "lat": "27.2569",
+            "long": "85.9713",
+            "area": "2491"
+        }
+    },
+    {
+        "districtName": "ramechhap",
+        "province": "Bagmati Province",
+        "acode": "048",
+        "headquarter": "Manthali",
+        "popu": "202646",
+        "position": {
+            "lat": "27.3193",
+            "long": "86.1039",
+            "area": "1546"
+        }
+    },
+    {
+        "districtName": "dolakha",
+        "province": "Bagmati Province",
+        "acode": "049",
+        "headquarter": "Bhimeshwar",
+        "popu": "186557",
+        "position": {
+            "lat": "27.7784",
+            "long": "86.1752",
+            "area": "2191"
+        }
+    },
+    {
+        "districtName": "bhaktapur",
+        "province": "Bagmati Province",
+        "acode": "01",
+        "headquarter": "Bhaktapur",
+        "popu": "81728",
+        "position": {
+            "lat": "27.6710",
+            "long": "85.4298",
+            "area": "119"
+        }
+    },
+    {
+        "districtName": "dhading",
+        "province": "Bagmati Province",
+        "acode": "010",
+        "headquarter": "Nilkantha",
+        "popu": "336067",
+        "position": {
+            "lat": "27.9711",
+            "long": "85.8985",
+            "area": "1926"
+        }
+    },
+    {
+        "districtName": "kavrepalanchok",
+        "province": "Bagmati Province",
+        "acode": "011",
+        "headquarter": "Dhulikhel",
+        "popu": "381937",
+        "position": {
+            "lat": "27.5285",
+            "long": "85.6435",
+            "area": "1396"
+        }
+    },
+    {
+        "districtName": "lalitpur",
+        "province": "Bagmati Province",
+        "acode": "01",
+        "headquarter": "Lalitpur",
+        "popu": "513200 ",
+        "position": {
+            "lat": "27.6588",
+            "long": "85.3247",
+            "area": "385"
+        }
+    },
+    {
+        "districtName": "nuwakot",
+        "province": "Bagmati Province",
+        "acode": "010",
+        "headquarter": "Bidur",
+        "popu": "277471",
+        "position": {
+            "lat": "27.8895",
+            "long": "85.2308",
+            "area": "1121"
+        }
+    },
+    {
+        "districtName": "rasuwa",
+        "province": "Bagmati Province",
+        "acode": "010",
+        "headquarter": "Dhunche",
+        "popu": "43300",
+        "position": {
+            "lat": "27.1755",
+            "long": "85.3963",
+            "area": "1544"
+        }
+    },
+    {
+        "districtName": "sindhupalchok",
+        "province": "Bagmati Province",
+        "acode": "011",
+        "headquarter": "Chautara",
+        "popu": "287818",
+        "position": {
+            "lat": "27.9512",
+            "long": "85.6846",
+            "area": "2542"
+        }
+    },
+    {
+        "districtName": "makwanpur",
+        "province": "Bagmati Province",
+        "acode": "057",
+        "headquarter": "Hetauda",
+        "popu": "420477",
+        "position": {
+            "lat": "27.5546",
+            "long": "85.0233",
+            "area": "2246"
+        }
+    },
+    {
+        "districtName": "chitwan",
+        "province": "Bagmati Province",
+        "acode": "056",
+        "headquarter": "Bharatpur",
+        "popu": "579984",
+        "position": {
+            "lat": "27.5291",
+            "long": "84.3542",
+            "area": "2238.39"
+        }
+    },
+    {
+        "districtName": "baglung",
+        "province": "Gandaki Province",
+        "acode": "068",
+        "headquarter": "Baglung",
+        "popu": "260107",
+        "position": {
+            "lat": "28.2774",
+            "long": "83.5816",
+            "area": "1784"
+        }
+    },
+    {
+        "districtName": "gorkha",
+        "province": "Gandaki Province",
+        "acode": "064",
+        "headquarter": "Gorkha",
+        "popu": "272169",
+        "position": {
+            "lat": "28.2964",
+            "long": "84.8568",
+            "area": "3610"
+        }
+    },
+    {
+        "districtName": "kaski",
+        "province": "Gandaki Province",
+        "acode": "061",
+        "headquarter": "Pokhara",
+        "popu": "264991",
+        "position": {
+            "lat": "28.2096",
+            "long": "83.9856",
+            "area": "2017"
+        }
+    },
+    {
+        "districtName": "lamjung",
+        "province": "Gandaki Province",
+        "acode": "066",
+        "headquarter": "Besisahar",
+        "popu": "201118",
+        "position": {
+            "lat": "28.2765",
+            "long": "84.3542",
+            "area": "1692"
+        }
+    },
+    {
+        "districtName": "manang",
+        "province": "Gandaki Province",
+        "acode": "066",
+        "headquarter": "Chame",
+        "popu": "6527",
+        "position": {
+            "lat": "28.6667",
+            "long": "84.0167",
+            "area": "2246"
+        }
+    },
+    {
+        "districtName": "mustang",
+        "province": "Gandaki Province",
+        "acode": "069",
+        "headquarter": "Jomsom",
+        "popu": "13452",
+        "position": {
+            "lat": "28.9985",
+            "long": "83.8473",
+            "area": "3573"
+        }
+    },
+    {
+        "districtName": "myagdi",
+        "province": "Gandaki Province",
+        "acode": "069",
+        "headquarter": "Beni",
+        "popu": "113641",
+        "position": {
+            "lat": "28.6029",
+            "long": "83.3362",
+            "area": "2297"
+        }
+    },
+    {
+        "districtName": "nawalpur",
+        "province": "Gandaki Province",
+        "acode": "078",
+        "headquarter": "Kawasoti",
+        "popu": "310864",
+        "position": {
+            "lat": "27.8149",
+            "long": "85.6281",
+            "area": "1043.1"
+        }
+    },
+    {
+        "districtName": "parbat",
+        "province": "Gandaki Province",
+        "acode": "067",
+        "headquarter": "Kusma",
+        "popu": "146590",
+        "position": {
+            "lat": "28.2246",
+            "long": "83.6987",
+            "area": "494"
+        }
+    },
+    {
+        "districtName": "syangja",
+        "province": "Gandaki Province",
+        "acode": "063",
+        "headquarter": "Putalibazar",
+        "popu": "289148",
+        "position": {
+            "lat": "28.0197",
+            "long": "83.8049",
+            "area": "1164"
+        }
+    },
+    {
+        "districtName": "tanahun",
+        "province": "Gandaki Province",
+        "acode": "065",
+        "headquarter": "Damauli",
+        "popu": "323288",
+        "position": {
+            "lat": "27.9447",
+            "long": "84.2279",
+            "area": "1546"
+        }
+    },
+    {
+        "districtName": "kapilvastu",
+        "province": "Lumbini Province",
+        "acode": "076",
+        "headquarter": "Taulihawa",
+        "popu": "76394",
+        "position": {
+            "lat": "27.5518",
+            "long": "83.0469",
+            "area": "1738"
+        }
+    },
+    {
+        "districtName": "parsa",
+        "province": "Lumbini Province",
+        "acode": "051",
+        "headquarter": "Ramgram",
+        "popu": "601017",
+        "position": {
+            "lat": "27.2190",
+            "long": "84.8151",
+            "area": "634.88"
+        }
+    },
+    {
+        "districtName": "rupandehi",
+        "province": "Lumbini Province",
+        "acode": "071",
+        "headquarter": "Siddharthanagar",
+        "popu": "982851",
+        "position": {
+            "lat": "27.5330",
+            "long": "83.3789",
+            "area": "1360"
+        }
+    },
+    {
+        "districtName": "arghakhanchi",
+        "province": "Lumbini Province",
+        "acode": "077",
+        "headquarter": "Sandhikharka",
+        "popu": "197632",
+        "position": {
+            "lat": "27.8940",
+            "long": "83.1220",
+            "area": "1193"
+        }
+    },
+    {
+        "districtName": "gulmi",
+        "province": "Lumbini Province",
+        "acode": "079",
+        "headquarter": "Tamghas",
+        "popu": "280160",
+        "position": {
+            "lat": "28.0889",
+            "long": "83.2934",
+            "area": "1149"
+        }
+    },
+    {
+        "districtName": "palpa",
+        "province": "Lumbini Province",
+        "acode": "075",
+        "headquarter": "Tansen",
+        "popu": "261180",
+        "position": {
+            "lat": "27.8253",
+            "long": "83.6348",
+            "area": "1373"
+        }
+    },
+    {
+        "districtName": "dang",
+        "province": "Lumbini Province",
+        "acode": "082",
+        "headquarter": "Ghorahi",
+        "popu": "548141",
+        "position": {
+            "lat": "28.0000",
+            "long": "82.4753",
+            "area": "2955"
+        }
+    },
+    {
+        "districtName": "pyuthan",
+        "province": "Lumbini Province",
+        "acode": "086",
+        "headquarter": "Pyuthan",
+        "popu": "38449",
+        "position": {
+            "lat": "28.1017",
+            "long": "82.8533",
+            "area": "1309"
+        }
+    },
+    {
+        "districtName": "rolpa",
+        "province": "Lumbini Province",
+        "acode": "086",
+        "headquarter": "Liwang",
+        "popu": "224506",
+        "position": {
+            "lat": "28.3816",
+            "long": "82.6483",
+            "area": "1879"
+        }
+    },
+    {
+        "districtName": "rukum_E",
+        "province": "Lumbini Province",
+        "acode": "088",
+        "headquarter": "Rukumkot",
+        "popu": "53018",
+        "position": {
+            "lat": "28.6947",
+            "long": "82.4319",
+            "area": "1161.13"
+        }
+    },
+    {
+        "districtName": "banke",
+        "province": "Lumbini Province",
+        "acode": "081",
+        "headquarter": "Nepalganj",
+        "popu": "491313",
+        "position": {
+            "lat": "28.1022",
+            "long": "81.8224",
+            "area": "2337"
+        }
+    },
+    {
+        "districtName": "bardiya",
+        "province": "Lumbini Province",
+        "acode": "084",
+        "headquarter": "Gulariya",
+        "popu": "426576",
+        "position": {
+            "lat": "28.3102",
+            "long": "81.4279",
+            "area": "2025"
+        }
+    },
+    {
+        "districtName": "rukum_W",
+        "province": "Karnali Province",
+        "acode": "088",
+        "headquarter": "Musikot",
+        "popu": "154272",
+        "position": {
+            "lat": "28.6947",
+            "long": "82.4319",
+            "area": "1213.49"
+        }
+    },
+    {
+        "districtName": "salyan",
+        "province": "Karnali Province",
+        "acode": "088",
+        "headquarter": "Salyan",
+        "popu": "241716",
+        "position": {
+            "lat": "28.4014",
+            "long": "82.1714",
+            "area": "1462"
+        }
+    },
+    {
+        "districtName": "dolpa",
+        "province": "Karnali Province",
+        "acode": "087",
+        "headquarter": "Dunai",
+        "popu": "36700",
+        "position": {
+            "lat": "29.0539",
+            "long": "83.0791",
+            "area": "7889"
+        }
+    },
+    {
+        "districtName": "humla",
+        "province": "Karnali Province",
+        "acode": "087",
+        "headquarter": "Simikot",
+        "popu": "50858",
+        "position": {
+            "lat": "30.0052",
+            "long": "81.9535",
+            "area": "5655"
+        }
+    },
+    {
+        "districtName": "jumla",
+        "province": "Karnali Province",
+        "acode": "087",
+        "headquarter": "Chandannath",
+        "popu": "108921",
+        "position": {
+            "lat": "29.2522",
+            "long": "82.1659",
+            "area": "2531"
+        }
+    },
+    {
+        "districtName": "kalikot",
+        "province": "Karnali Province",
+        "acode": "087",
+        "headquarter": "Manma",
+        "popu": "136948",
+        "position": {
+            "lat": "29.2089",
+            "long": "81.7349",
+            "area": "1741"
+        }
+    },
+    {
+        "districtName": "mugu",
+        "province": "Karnali Province",
+        "acode": "087",
+        "headquarter": "Gamgadhi",
+        "popu": "898",
+        "position": {
+            "lat": "29.8086",
+            "long": "82.5186",
+            "area": "3535"
+        }
+    },
+    {
+        "districtName": "surkhet",
+        "province": "Karnali Province",
+        "acode": "083",
+        "headquarter": "Birendranagar",
+        "popu": "350804",
+        "position": {
+            "lat": "28.5175",
+            "long": "81.7787",
+            "area": "2451"
+        }
+    },
+    {
+        "districtName": "dailekh",
+        "province": "Karnali Province",
+        "acode": "089",
+        "headquarter": "Narayan",
+        "popu": "260855",
+        "position": {
+            "lat": "28.9262",
+            "long": "81.6473",
+            "area": "1502"
+        }
+    },
+    {
+        "districtName": "jajarkot",
+        "province": "Karnali Province",
+        "acode": "089",
+        "headquarter": "Khalanga",
+        "popu": "8140",
+        "position": {
+            "lat": "28.7396",
+            "long": "82.2040",
+            "area": "2230"
+        }
+    },
+    {
+        "districtName": "kailali",
+        "province": "Sudurpashchim Province",
+        "acode": "091",
+        "headquarter": "Dhangadhi",
+        "popu": "775709",
+        "position": {
+            "lat": "28.8314",
+            "long": "80.8987",
+            "area": "3235"
+        }
+    },
+    {
+        "districtName": "achham",
+        "province": "Sudurpashchim Province",
+        "acode": "092",
+        "headquarter": "Mangalsen",
+        "popu": "257477",
+        "position": {
+            "lat": "29.0396",
+            "long": "81.2519",
+            "area": "1680"
+        }
+    },
+    {
+        "districtName": "doti",
+        "province": "Sudurpashchim Province",
+        "acode": "094",
+        "headquarter": "Dipayal Silgadhi",
+        "popu": "211746",
+        "position": {
+            "lat": "29.2006",
+            "long": "80.8987",
+            "area": "2025"
+        }
+    },
+    {
+        "districtName": "bajhang",
+        "province": "Sudurpashchim Province",
+        "acode": "092",
+        "headquarter": "Jayaprithvi",
+        "popu": "195159",
+        "position": {
+            "lat": "29.7767",
+            "long": "81.2519",
+            "area": "3422"
+        }
+    },
+    {
+        "districtName": "bajura",
+        "province": "Sudurpashchim Province",
+        "acode": "092",
+        "headquarter": "Martadi",
+        "popu": "134912",
+        "position": {
+            "lat": "29.4201",
+            "long": "81.4279",
+            "area": "2188"
+        }
+    },
+    {
+        "districtName": "kanchanpur",
+        "province": "Sudurpashchim Province",
+        "acode": "099",
+        "headquarter": "Bhimdatta",
+        "popu": "451248",
+        "position": {
+            "lat": "28.8372",
+            "long": "80.3213",
+            "area": "1610"
+        }
+    },
+    {
+        "districtName": "dadeldhura",
+        "province": "Sudurpashchim Province",
+        "acode": "096",
+        "headquarter": "Amargadhi",
+        "popu": "152157",
+        "position": {
+            "lat": "29.2188",
+            "long": "80.4994",
+            "area": "1538"
+        }
+    },
+    {
+        "districtName": "baitadi",
+        "province": "Sudurpashchim Province",
+        "acode": "095",
+        "headquarter": "Dasharathchand",
+        "popu": "5352",
+        "position": {
+            "lat": "29.5186",
+            "long": "80.4688",
+            "area": "1519"
+        }
+    },
+    {
+        "districtName": "darchula",
+        "province": "Sudurpashchim Province",
+        "acode": "093",
+        "headquarter": "Darchula",
+        "popu": "133274",
+        "position": {
+            "lat": "29.9363",
+            "long": "80.8987",
+            "area": "2322"
+        }
+    }
+]

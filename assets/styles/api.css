@@ -1,0 +1,14 @@
+.api {
+  margin: 150px 0;
+  width: 100%;
+  color: white;
+  font-family: Poppins;
+}
+.main-api-container {
+  width: 90%;
+  margin: 100px auto;
+}
+.heading h4 {
+  text-decoration: underline;
+  color: royalblue;
+}

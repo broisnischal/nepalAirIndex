@@ -1,0 +1,87 @@
+.complain {
+  margin: 150px 0;
+  color: white;
+}
+.main-complain-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.box .titletext h3 {
+  text-decoration: underline;
+}
+#errordiv {
+  display: none;
+}
+.complain-box {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.complain-box form {
+  width: 100%;
+}
+.complain-box .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.complain-box .form-row input {
+  width: 100%;
+  padding: 4px 15px;
+  margin-bottom: 5px;
+}
+.complain-box .form-row textarea {
+  width: 100%;
+  padding: 4px 15px;
+  margin-bottom: 5px;
+  resize: none;
+}
+.complain-box .form-row #pollution,
+.complain-box .form-row #province {
+  -webkit-appearance: none;
+  width: 100%;
+  text-align: left;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.complain-box .form-row label {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  color: crimson;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.complain-box #image div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.complain-box #image div label {
+  color: white;
+  font-size: 15px;
+}
+.complain-box #image div label i {
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.complain-box #image div label i:hover {
+  color: royalblue;
+}
+
+@media screen and (max-width: 1080px) {
+  .form-row {
+    margin-left: -15px;
+  }
+}

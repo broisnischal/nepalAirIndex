@@ -1,0 +1,158 @@
+<!-- province ends here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text'>Province no.1</h3>
+    <!-- province box  -->
+    <div class='innerbox'>
+        <!-- single content box  -->
+        <div class='single-content-box'>
+            <h3>Bhimeshwor, Dolakha</h3>
+            <div class='innercontent'>
+                <p><abbr title='Area Code'>ACode</abbr> : 021</p>
+                <p><samp>Total Population : </samp> <abbr title='According to 2011 Census'>923123</abbr></p>
+                <p>
+                    <details>
+                        <summary>Geography Infos</summary>
+                        <p>&CircleDot; Latitude : <span id='lat'> 27.9893 </span></p>
+                        <p>&CircleDot; Longitude : <span id='lat'> 84.9893 </span></p>
+                        <p>&CircleDot; Area : <span id='lat'> 8421 km<sup>2</sup></span></p>
+                    </details>
+                    <div class='aqidetail'>
+                        <h5><samp>AQI index :</samp> <span id='dapi'>123</span></h5>
+                        <div class='inner'>
+                            <p>Carbon Monoxide : <span id='districtCO' style='font-weight: bold; color: #132c33'>578.30</span>μg/m<sup>3</sup></p>
+                            <p>Nitrogen Monoxide : <span id='districtNO' style='font-weight: bold; color: #132c33'>78.30</span>μg/m<sup>3</sup></p>
+                            <p>Nitrogen Dioxide : <span id='districtND' style='font-weight: bold; color: #132c33'>28.30</span>μg/m<sup>3</sup></p>
+                            <p>Ozone : <span id='districtND' style='font-weight: bold; color: #132c33'>58.30</span>μg/m<sup>3</sup></p>
+                            <p>Sulpler Dioxide : <span id='districtND' style='font-weight: bold; color: #132c33'>58.30</span>μg/m<sup>3</sup></p>
+                            <p><abbr title='PM25'>Fine Particles</abbr> : <span id='districtND' style='font-weight: bold; color: #132c33'>58.30</span>μg/m<sup>3</sup></p>
+                            <p> <abbr title='PM21'>Coarse Particles</abbr> : <span id='districtND' style='font-weight: bold; color: #132c33'>58.30</span>μg/m<sup>3</sup></p>
+                            <p> Ammonia : <span id='districtND' style='font-weight: bold; color: #132c33'>58.30</span>μg/m<sup>3</sup></p>
+                        </div>
+                    </div>
+                    <div class='weatherdetail'>
+                        <h4>Weather Detail</h4>
+                        <div class='calc'>
+                            <div class='img'>
+                                <img draggable='false' src='./assets/img/icons/10d.png' alt=''>
+                            </div>
+                            <h4>25<span>&ring;C</span></h4>
+                        </div>
+                        <h5>Pressure : <span id='press'>131</span><span id='unit'>hPa</span></h5>
+                        <h5>Humidity : <span id='humid'>76</span><span id='unit'>%</span></h5>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <!-- here  -->
+    </div>
+</div>
+
+
+await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${district.position.lat}&lon=${district.position.long}&appid=${openweathermapkey}`).then(result => result.json()).then(res => { console.log(res); })
+
+
+
+
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Province no.2</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province2">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Bagmati Province</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province3">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Gandaki Province</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province4">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Lumbini Province</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province5">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Karnali Province</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province6">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+<!-- province starts here  -->
+<div class='province-particular'>
+    <div class='stop-auto-scroll' id='stopautoscroll'> <span id='play'> <i class='fas fa-play'></i> </span>
+        <span id='pause'><i class='fas fa-pause'></i></span>
+    </div>
+    <div class='left-scroll' id='right-scroll'> <i class='fas fa-chevron-left'></i></div>
+    <div class='right-scroll' id='left-scroll'> <i class='fas fa-chevron-right'></i> </div>
+    <h3 class='title-text' id="province-text">Sudurpashchim Province</h3>
+    <!-- province box  -->
+    <div class='innerbox' id="province7">
+        <!-- single content box  -->
+    </div>
+</div>
+<!-- province ends here  -->
+
+
+
+
+<div style="position: absolute; color: white;">
+                <?php if (!isset($_SESSION['login'])) {
+                } else {
+                    echo $_SESSION['login'] . '<br>';
+                    echo $_SESSION['email'] . '<br>';
+                    echo $_SESSION['cat'] . '<br>';
+                    echo $_COOKIE['login'] . '<br>';
+                    echo $_COOKIE['cat'] . '<br>';
+                } ?>
+            </div>

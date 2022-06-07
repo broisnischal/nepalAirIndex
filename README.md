@@ -7,7 +7,7 @@
 
 ## [YouTube video](https://www.youtube.com/watch?v=60jy8wfUivc) || [LIVE](http://neesnepalapi.eu5.net/)
 <br>
-- Please sub to my channel for more coding tutorials !
+> Please sub to my channel for more coding tutorials !
 
 > If you want any help regarding this repository feel free to message me !!
 

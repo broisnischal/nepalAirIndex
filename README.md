@@ -1,4 +1,4 @@
-﻿# Nepal Air Quality Index APP designed and made by neeswebservices !
+﻿# Nepal Air Quality Index APP designed and made by neeswebservices
 ### This is open source everyone contribute to the code ! 
 
 ## This is the nepal air quality web site !
